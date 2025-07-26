@@ -1,55 +1,65 @@
 # 🛍️ Retail Sales Analysis — SQL + Python Project
 
-This project explores customer shopping behavior using a real-world retail dataset with over **99,000 transactions**. The goal is to extract insights about **revenue trends**, **customer segments**, and **shopping patterns** using **SQL** for querying and **Python** for visualization.
+This project explores customer shopping behavior using a real-world dataset of over **99,000 retail transactions**. It leverages SQL (via SQLite and SQLAlchemy) and Python (Pandas, Matplotlib) to extract business insights on **revenue trends, gender-based spending, mall performance, and category contributions**. The project concludes with a single-slide **PowerPoint poster** summarizing key findings.
 
 ---
 
-## 📁 Dataset
+## 📘 Overview
 
-- **Source**: [Kaggle – Customer Shopping Dataset (2021)](https://www.kaggle.com/datasets/mehmettahiraslan/customer-shopping-dataset)
-- **Rows**: 73,100
-- **Columns**: invoice_no, customer_id, gender, age, category, quantity, price, payment_method, invoice_date, shopping_mall
+**Objective:** Use SQL and Python to analyze retail transaction data and answer core business questions:
+- When does revenue peak?
+- Who spends more: males or females?
+- Which malls and product categories generate the most revenue?
+- What are the top shopping days?
+
+> 🧠 Great for showcasing SQL, data analysis, and storytelling skills in your portfolio.
 
 ---
 
-## 🛠 Tools Used
+## 📁 Dataset Details
 
-- **SQLite + SQLAlchemy** (SQL Queries)
-- **Pandas** (Data manipulation)
-- **Matplotlib** (Charts and visualizations)
-- **Jupyter Notebook**
-- **PowerPoint** (Final Poster Presentation)
+- **Source:** [Kaggle – Customer Shopping Dataset (2021)](https://www.kaggle.com/datasets/mehmettahiraslan/customer-shopping-dataset)
+- **Size:** 73,100 rows
+- **Key Features:**  
+  `invoice_no`, `customer_id`, `gender`, `age`, `category`, `quantity`, `price`, `payment_method`, `invoice_date`, `shopping_mall`
+
+---
+
+## 🛠 Tools & Technologies
+
+| Component         | Stack Used                   |
+|------------------|------------------------------|
+| Data Handling     | `pandas`, `csv`              |
+| SQL Engine        | `sqlite3`, `SQLAlchemy`      |
+| Visualization     | `matplotlib`, `seaborn`      |
+| Notebook          | `Jupyter Notebook`           |
+| Presentation      | `PowerPoint` (poster)        |
 
 ---
 
 ## 📊 Analyses Performed
 
-- 📈 **Monthly Revenue Trend** — How revenue changed over time
-- 🧍 **Revenue by Gender** — Segment-based analysis
-- 🛒 **Top Product Categories** — Category-wise spend behavior
-- 🏬 **Revenue by Shopping Mall** — Geographic store performance
-- 📅 **Top 10 Revenue Days** — Identifying peak shopping dates
-- 🔁 **Cohort Summary** — Repeat vs. new customer snapshot
+- 📈 **Monthly Revenue Trend**  
+- 🧍 **Revenue by Gender**  
+- 🛒 **Top Product Categories**  
+- 🏬 **Revenue by Shopping Mall**  
+- 📅 **Top 10 Shopping Days**  
+- 🔁 **Cohort Analysis** (Repeat vs New Customers)
 
 ---
 
-## 📍 Key Insight
+## 🔍 Key Insight
 
-> 💡 Revenue peaks align with seasonal demand; spending is balanced across genders and malls.
-
----
-
-## 📌 Output Poster
-
-The final visual poster summarizing this project is included
-
+> 💡 *Revenue peaks align with seasonal demand; spending is balanced across genders and malls.*
 
 ---
 
-## 🧠 What I Learned
+## 🖼️ Final Poster
 
-- Practiced complex SQL queries (joins, group by, aggregations)
-- Integrated SQL and Python for end-to-end analysis
-- Designed a professional project poster for presentation
+The project is summarized in this one-slide visual poster:
+
+![Retail Sales Poster](https://github.com/Tabassumfathima583/Retail-sales-using-python-sql/blob/main/Retail%20sales.png?raw=true)
 
 ---
+
+
